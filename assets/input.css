@@ -1,1 +1,7 @@
 @import "tailwindcss";
+
+@layer component{
+    .hero::after{
+        @apply absolute top-[0] left-[0] w-full h-full bg-[#fff] opacity-[.7] content-[''] z-[-1];
+    }
+}
